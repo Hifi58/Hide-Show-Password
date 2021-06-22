@@ -2,7 +2,7 @@
 
 const input = document.getElementById("input") ;
 const span = document.getElementById("display");
-document.getElementById('checkbox').addEventListener('mouseup',
+document.getElementById('checkbox').addEventListener('click',
 function(){
     if(input.type == 'password'){
         input.type= 'text';
